@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Book</title>
+    <link rel="stylesheet" href="css/global.css">
+    <script src="https://kit.fontawesome.com/0ef6695f2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+           <a href="index.html"> <img src="images/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+
+
+        </div>
+
+        <div class="nav-right">
+
+            <div class="search-box">
+                
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="openToggleMenu()">
+                <img src="images/profile-pic.png" >
+            </div>
+        </div>
+
+        <!-- drop down settings menu  -->
+        <div class="settings-menu">
+
+            <div id="darkBtn">
+                <span></span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" />
+                              <div>
+                     <p>John Nicholson</p>
+                     <a href="profile.html">See your profile</a>
+                   </div>
+                   </div>
+                   <hr/>
+                   <div class="user-profile">
+                    <img src="images/feedback.png" />
+                              <div>
+                     <p>Give Feedback</p>
+                     <a href="#">Help us to Improve the new design</a>
+                   </div>
+                   </div>
+                   <hr/>
+                   <div class="setting-links">
+                    <img src="images/setting.png"  class="seeting-icon"> 
+                    <a href="#"> Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/help.png"  class="seeting-icon"> 
+                    <a href="#"> Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/display.png"  class="seeting-icon"> 
+                    <a href="#"> Display & Accessibility <img src="images/arrow.png" alt="" width="10"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png"  class="seeting-icon"> 
+                    <a href="#"> Logout <img src="images/arrow.png" alt="" srcset="" width="10px"></a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </nav>
+
+
+<div class="container">
+<!-------------------- left bar secton  -------------------------->
+ <div class="left-sidebar">
+    <div class="imp-links">
+            <a href="#"><img src="images/news.png"/> Latest News</a>
+            <a href="#"><img src="images/friends.png"/> Friends</a>
+            <a href="#"><img src="images/group.png"/> Group</a>
+            <a href="#"><img src="images/marketplace.png"/> Market Place</a>
+            <a href="#"><img src="images/watch.png"/>Watch</a>
+            <a href="#">See More</a>
+    </div>
+
+    <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+       <a href="#"><img src="images/shortcut-1.png"/> Web Developers</a>
+        <a href="#"><img src="images/shortcut-2.png"/> Web Design Course</a>
+        <a href="#"><img src="images/shortcut-3.png"/> Fullstack Developer</a>
+        <a href="#"><img src="images/shortcut-4.png"/> Webiste Expert</a>
+    </div>
+
+
+ </div>
+
+
+<!-------------------- main content  -------------------------->
+ <div class="main-content">
+   
+    <div class="story-gallery">
+             <div class="story story1">
+            <img src="images/upload.png" alt="">
+            <p>Post Story</p>
+        </div>
+        <div class="story story2">
+            <img src="images/member-1.png" alt="">
+            <p>Post Story</p>
+        </div>
+        <div class="story story3">
+            <img src="images/member-2.png" alt="">
+            <p>Post Story</p>
+        </div>
+        <div class="story story4">
+            <img src="images/member-3.png" alt="">
+            <p>Post Story</p>
+        </div>
+        <div class="story story5">
+            <img src="images/member-4.png" alt="">
+            <p>Post Story</p>
+        </div>
+      </div>
+
+
+      <div class="write-post-container">
+       
+       <div class="user-profile">
+            <img src="images/profile-pic.png" />
+                      <div>
+             <p>John Nicholson</p>
+            <small>Public <i class="fa-solid fa-caret-down" aria-hidden="true"></i></small>
+           </div>
+           </div>
+
+           <div class="post-input-container">
+            <textarea name="" rows="3" placeholder="What your mind about John?"></textarea>
+           </div>
+
+           <div class="add-post-links">
+            <a class="" href="#">
+                <img src="images/live-video.png" alt="" />
+                Live Video
+            </a>
+
+            <a class="" href="#">
+                <img src="images/photo.png" alt="" />
+                Photo Video
+            </a>
+
+            <a class="" href="#">
+                <img src="images/feeling.png" alt="" />
+                Feeling Activity
+            </a>
+
+           </div>
+     </div>
+
+     <div class="post-container">
+       
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile-pic.png" />
+                 <div>
+                 <p>John Nicholson</p>
+                 <span>June 24, 2023, 13:13 pm</span>
+               </div>
+               </div>
+
+
+               <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+        </div>
+
+           <p class="post-text">Subscribed <span>@Easy Tutorials Youtube Channel</span> to watch more video n website development and UI designs.
+            <a href="#"> #Easy Tutorial</a>
+            <a href="#"> #Youtube Channel</a>
+        </p>
+
+<img class="post-img" src="images/feed-image-1.png" alt="">
+      
+        <div class="post-row">
+          
+
+            <div class="activity-icon">
+                <div><img src="images/like-blue.png" alt="" srcset="">120</div>
+                <div><img src="images/comments.png" alt="" srcset="">67</div>
+                <div><img src="images/share.png" alt="" srcset="">86</div>
+            </div>
+
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="" srcset="">
+                <i class="fa-solid fa-caret-down" aria-hidden="true"></i>
+            </div>
+
+
+
+        </div>
+
+
+
+      </div>
+ 
+      <div class="post-container">
+       
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile-pic.png" />
+                 <div>
+                 <p>John Nicholson</p>
+                 <span>June 24, 2023, 13:13 pm</span>
+               </div>
+               </div>
+
+
+               <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+        </div>
+
+           <p class="post-text">Subscribed <span>@Easy Tutorials Youtube Channel</span> to watch more video n website development and UI designs.
+            <a href="#"> #Easy Tutorial</a>
+            <a href="#"> #Youtube Channel</a>
+        </p>
+
+<img class="post-img" src="images/feed-image-2.png" alt="">
+      
+        <div class="post-row">
+          
+
+            <div class="activity-icon">
+                <div><img src="images/like-blue.png" alt="" srcset="">120</div>
+                <div><img src="images/comments.png" alt="" srcset="">67</div>
+                <div><img src="images/share.png" alt="" srcset="">86</div>
+            </div>
+
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="" srcset="">
+                <i class="fa-solid fa-caret-down" aria-hidden="true"></i>
+            </div>
+
+
+
+        </div>
+
+
+
+      </div>
+ 
+
+
+      <div class="post-container">
+       
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile-pic.png" />
+                 <div>
+                 <p>John Nicholson</p>
+                 <span>June 24, 2023, 13:13 pm</span>
+               </div>
+               </div>
+
+
+               <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+        </div>
+
+           <p class="post-text">Subscribed <span>@Easy Tutorials Youtube Channel</span> to watch more video n website development and UI designs.
+            <a href="#"> #Easy Tutorial</a>
+            <a href="#"> #Youtube Channel</a>
+        </p>
+
+<img class="post-img" src="images/feed-image-3.png" alt="">
+      
+        <div class="post-row">
+          
+
+            <div class="activity-icon">
+                <div><img src="images/like-blue.png" alt="" srcset="">120</div>
+                <div><img src="images/comments.png" alt="" srcset="">67</div>
+                <div><img src="images/share.png" alt="" srcset="">86</div>
+            </div>
+
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="" srcset="">
+                <i class="fa-solid fa-caret-down" aria-hidden="true"></i>
+            </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+      
+      <div class="post-container">
+       
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile-pic.png" />
+                 <div>
+                 <p>John Nicholson</p>
+                 <span>June 24, 2023, 13:13 pm</span>
+               </div>
+               </div>
+
+
+               <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+        </div>
+
+           <p class="post-text">Subscribed <span>@Easy Tutorials Youtube Channel</span> to watch more video n website development and UI designs.
+            <a href="#"> #Easy Tutorial</a>
+            <a href="#"> #Youtube Channel</a>
+        </p>
+
+<img class="post-img" src="images/feed-image-4.png" alt="">
+      
+        <div class="post-row">
+          
+
+            <div class="activity-icon">
+                <div><img src="images/like-blue.png" alt="" srcset="">120</div>
+                <div><img src="images/comments.png" alt="" srcset="">67</div>
+                <div><img src="images/share.png" alt="" srcset="">86</div>
+            </div>
+
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="" srcset="">
+                <i class="fa-solid fa-caret-down" aria-hidden="true"></i>
+            </div>
+
+
+
+        </div>
+
+
+
+      </div>
+ 
+
+ </div>
+
+
+<!-------------------- riight side bar  -------------------------->
+ <div class="right-sidebar">
+    <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#"> See All</a>
+    </div>
+
+   
+    <div class="event">
+             <div class="left-event">
+            <h2>17</h2>
+            <span>Jan</span>
+        </div>
+
+        <div class="event-details">
+            <h4>Birthday's Event </h4>
+            <p><i class="fa-solid fa-location-dot"></i> Malad East</p>
+            <a href="#"> More Info</a>
+        </div>
+    </div>
+
+
+    <div class="event">
+        <div class="left-event">
+       <h2>27</h2>
+       <span>Nov</span>
+   </div>
+
+   <div class="event-details">
+       <h4>Social Media </h4>
+       <p><i class="fa-solid fa-location-dot"></i> Wilson Tech Park</p>
+       <a href="#"> More Info</a>
+   </div>
+</div>
+
+
+
+<div class="sidebar-title">
+    <h4>Advertisment</h4>
+    <a href="#"> Close</a>
+</div>
+
+
+<img class="advertisement" src="images/advertisement.png" alt="" >
+
+<div class="sidebar-title">
+    <h4>Conversation</h4>
+    <a href="#">Hide Chat</a>
+</div>
+
+<div class="online-list">
+ <div class="online">
+<img src="images/member-1.png"/>
+ </div>
+<p>Alison Mina</p>
+</div>
+
+
+<div class="online-list">
+    <div class="online">
+   <img src="images/member-1.png"/>
+    </div>
+   <p>Alison Mina</p>
+   </div>
+
+   <div class="online-list">
+    <div class="online">
+   <img src="images/member-2.png"/>
+    </div>
+   <p>Alison Mina</p>
+   </div>
+
+
+
+ </div>
+</div>
+<div class="footer">
+    Copyright 2023 - All Right Reserved | Social Book
+</div>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
